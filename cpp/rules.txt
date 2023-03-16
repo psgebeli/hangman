@@ -1,0 +1,19 @@
+Rules for the hangman game (this will be the same in all languages)
+
+1. player will guess one letter at a time
+2. no proper nouns (names, places, etc) will be used
+3. each incorrect guess --> one part of stick figure drawn
+   this means the player gets 9 guesses, after which the player
+   fails. the order of appearance is :
+
+   a) platform
+   b) noose
+   c) head
+   d) torso
+   e) groin
+   f) arm 1
+   g) arm 2
+   h) leg 1
+   i) leg 2
+
+4. only lowercase letters can be inputted
