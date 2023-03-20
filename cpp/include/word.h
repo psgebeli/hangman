@@ -29,7 +29,7 @@ std::string generateRandomWord()
   // create empty vector to store the words
   vector<std::string> words;
 
-  // read in words, add to file
+  // read in words, add to string
   std::string word;
   while (file >> word)
     {
