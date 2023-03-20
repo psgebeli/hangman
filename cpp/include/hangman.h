@@ -19,8 +19,8 @@ void print_hangman(int tries_left) {
   string body = "|";
   string arm1 = "/";
   string arm2 = "\\";
-  string leg1 = "/";
-  string leg2 = "\\";
+  string leg1 = "\n/";
+  string leg2 = " \\";
 
   string limbs = ""; // store the current limbs being hung
   if (tries_left < 6) {

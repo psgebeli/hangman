@@ -5,6 +5,3 @@ C++
 Python
 Rust
 
-# notes
-fix legs
-make sure hangman displays at the last wrong guess

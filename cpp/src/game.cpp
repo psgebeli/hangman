@@ -103,11 +103,12 @@ int main() {
       }
     }
     if (word_guessed) {
-      cout << "Congratulations, you guessed the word!" << endl;
+      cout << "\nCongratulations, you guessed the word!" << endl;
       return 0;
     }
   }
-  cout << "Sorry, you ran out of guesses. The word was ";
+  print_hangman(0);
+  cout << "\nSorry, you ran out of guesses. The word was ";
   for (char c : word) {
     cout << c;
   }
