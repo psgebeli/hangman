@@ -1,7 +1,6 @@
 # hangman
-Hangman in C++, Python, and (eventually) Rust.
+Hangman in Python and C++
 
 C++
 Python
-Rust
 
